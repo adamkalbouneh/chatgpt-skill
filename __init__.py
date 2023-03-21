@@ -5,7 +5,7 @@ import os
 class Chatgpt(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
-        openai.api_key = os.environ["OPENAI_API_KEY"]  # Set the API key
+        openai.api_key = os.environ[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]  # Set the API key
 
     @intent_file_handler('chatgpt.intent')
     def handle_chatgpt(self, message):
